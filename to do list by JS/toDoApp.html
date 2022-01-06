@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript - ToDo App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/2745e261bc.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div id="myDIV" class="header">
+      <h2 style="margin: 5px;">My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+      <li>Develop a new feature for the web applications <i class="fas fa-times close"></i></li>
+      <li class="checked">Buy a helmet for cycling <i class="fas fa-times close"></i></li>
+      <li>Hava lunch with Maria on Wednesday <i class="fas fa-times close"></i></li>
+      <li>Publish an artical, on Monday  <i class="fas fa-times close"></i></li>
+      <li>Save a music CD to have in the car  <i class="fas fa-times close"></i></li>
+      <li>I would like to visit New Zealand <i class="fas fa-times close"></i></li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
